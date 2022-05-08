@@ -43,6 +43,7 @@ const slides = [
 export default function App() {
   const [showHomePage, setShowHomePage] = useState(false)
   const [splashScreen, setSplashScreen] = useState(false)
+  const text = 'Sign up'
   useEffect(() => {
     const timer = setTimeout(() => {
       setSplashScreen(true)
